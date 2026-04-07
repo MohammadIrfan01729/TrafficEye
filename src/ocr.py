@@ -1,5 +1,7 @@
 from paddleocr import PaddleOCR
 import cv2
+import os
+os.environ["PADDLE_PDX_DISABLE_MODEL_SOURCE_CHECK"] = "True"
 
 ocr = PaddleOCR(use_angle_cls=False, lang='en')
 

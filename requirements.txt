@@ -1,12 +1,21 @@
-ultralytics
-opencv-python
-numpy
-pandas
-paddlepaddle-gpu
-paddleocr
-torch
-torchvision
-openpyxl
-transformers
-accelerate
-sentencepiece
+# Core ML
+ultralytics==8.3.0
+torch==2.2.2
+torchvision==0.17.2
+
+# Computer Vision
+opencv-python==4.6.0.66
+numpy==1.26.4
+
+# Data
+pandas==2.2.2
+openpyxl==3.1.2
+
+# OCR
+paddlepaddle==2.6.2
+paddleocr==2.7.0.3
+
+# LLM (optional but you added)
+transformers==4.40.1
+accelerate==0.29.3
+sentencepiece==0.2.0
