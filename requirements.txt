@@ -15,7 +15,11 @@ openpyxl==3.1.2
 paddlepaddle==2.6.2
 paddleocr==2.7.0.3
 
-# LLM (optional but you added)
+# LLM (optional)
 transformers==4.40.1
 accelerate==0.29.3
 sentencepiece==0.2.0
+
+# Evaluations
+seaborn==0.13.2
+scikit-learn==1.4.2
